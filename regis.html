@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <style>
+        .form-label {
+        text-align: center;
+        color: #0095da;
+        margin: 30px;
+      }
+
+      .form-control {
+        border: none;
+        background-color: #f1f2f2;
+        height: 50px;
+      }
+
+      body {
+        width: 80%;
+        margin: auto;
+      }
+
+      .img {
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        align-items: center;
+        display: inline-flex;
+        margin-bottom: 3px;
+      }
+
+      .text {
+        font-size: smaller;
+      }
+
+      .aku {
+        width: 400px;
+      }
+
+      .aku span {
+        color: #5095DA;
+      }
+
+      .gap {
+        gap: 10px;
+        display: flex;
+        align-items: center;
+      }
+
+      .bawah-form span {
+        font-size: 12px;
+        background-color: red;
+        padding: 2px 7px;
+        border-radius: 30px;
+        color: #fff;
+      }
+
+      .form-check-label {
+        font-size: 15px;
+      }
+    </style>
+</head>
+<body>
+    <body class="shadow p-3 mb-3 bg-body-tertiary rounded mt-5">
+        <div class="row m-0 h-100">
+        <div
+            class="col p-0 d-flex justify-content-center align-items-center display-none"
+        >
+            <img src="desktop-login.029808b5.svg" class="w-100 p-100" />
+        </div>
+
+      <!-- form -->
+        <div class="col p-0 d-flex justify-content-center align-items-center">
+            <form class="auto">
+            <h2 class="form-label">Daftar di blibli</h2>
+
+            <div class="aku shadow p-4 mb-5 bg-body-tertiary rounded">
+                <div class="form-floating mb-3">
+                <input
+                    type="email"
+                    class="form-control"
+                    id="floatingInput"
+                    placeholder="nama"
+                />
+                <label for="floatingInput">Nama Lengkap</label>
+                </div>
+                <div class="form-floating mb-3">
+                <input
+                    type="password"
+                    class="form-control"
+                    id="floatingInput"
+                    placeholder="name@example.com"
+                />
+                <label for="floatingInput">Email/nomor HP</label>
+                </div>
+                <div class="form-floating mb-3">
+                <input
+                    type="password"
+                    class="form-control"
+                    id="floatingInput"
+                    placeholder="password"
+                />
+                <label for="floatingInput">password</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Dengan mecentang ini, kamu menyetujui <span>Syarat & Ketentuan</span> kami.
+                    </label>
+                </div>
+                <div class="text-center m-2">
+                <button type="submit" class="w-50 btn btn-secondary rounded-pill">
+                    Daftar
+                </button>
+                </div>
+        </div>
+
+            <div class="text-center">
+                <button
+                type="submit"
+                class="m-1 btn btn btn-light rounded ms-1 shadow mb-2"
+                >
+                    <img class="img" src="facebook.png" alt="" /> facebook
+                </button>
+                <button
+                type="submit"
+                class="m-1 btn btn btn-light rounded ms-1 shadow mb-2"
+                >
+                <img class="img" src="google.png" alt="" /> google
+                </button>
+            </div>
+            <div class="text">
+                <p class="col p-0 d-flex justify-content-center align-items-center">
+                Tidak punya akun?
+                <a href="register.html" class="text-decoration-none"> Sign Up</a>
+                </p>
+            </div>
+            </form>
+        </div>
+    </div>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
